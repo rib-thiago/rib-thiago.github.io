@@ -1,0 +1,155 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+}
+
+.cabeçalho {
+    /*background-image: url(../imagens/foto.jpeg);*/
+    background-image: url(../imagens/fffffff.jpg);
+    background-position: right center;
+    background-size: cover;
+    height: 700px;
+    border-top: 1px solid transparent; 
+}
+        
+.cabeçalho nav a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+       
+.cabeçalho nav a {
+    background-color: rgba(0,0,0,0.1);
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.cabeçalho nav ul {
+    text-align: right;
+    margin: 20px 50px 0 0;
+}
+
+.cabeçalho nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    border: 1px solid white;
+}
+
+.titulo-pag {
+    text-align: center;
+    color: yellow;            
+}
+
+.titulo-pag h1 {
+    text-transform: uppercase;
+    font-size: 56px;
+    text-shadow: 3px 3px 2px red;
+    font-style: italic;
+    margin-top: 450px;
+    margin-bottom: 0px;
+}
+
+.titulo-pag p {
+    background-color: rgba(0,0,0,.2);
+    font-variant: small-caps;
+    display: inline-block;
+    margin-top: 0px;
+    padding: 0 10px;
+    border-bottom: 2px solid white;
+    font-size: 30px;
+    text-shadow: 2px 2px 1px red;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+#disclaimer {
+    color: red;
+    background-color: rgba(255,255, 0,0.9);
+    font-variant: small-caps;
+    font-size: 30px;
+    text-align: justify;
+    padding: 0 15px 0 15px;
+}
+
+#disclaimer a {
+    color: black;
+    text-decoration: underline;
+}
+
+#disclaimer a:hover{  
+    text-decoration: none;
+}
+
+#disclaimer a:active{
+    color: black;
+    text-decoration: none;
+}
+
+#content-titulo {
+    text-align: center;
+}
+
+.quotes {
+    margin: 0 100px;
+    padding: 15px;
+    clear: both;
+    background-color: rgb(256, 256, 256);
+}
+
+.ordinary{
+    clear: both;
+    text-align: justify;
+}
+
+.legenda {
+    clear: both;
+    text-align: center;
+}
+
+.regular{
+    text-align: justify;
+}
+
+.mural{    
+    text-align: center;
+    
+}
+
+.fotos {
+    float: left;
+    margin: 30px;
+}
+
+.fotos2 {
+    float: letf;
+    margin: 15px;
+}
+
+.rodape {
+    clear: both;
+    height: 80px;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    background-color: #6b6c68;
+    line-height: 80px;
+}
+
+
+                
+
+        
+
+
+
+
+
