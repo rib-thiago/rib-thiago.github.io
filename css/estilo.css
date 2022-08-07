@@ -5,7 +5,7 @@ body {
 }
 
 .hero {
-    background-image: url(../imagens/foto.jpeg);
+    background-image: url(../imagens/fotos/foto.jpeg);
     background-position: right center;
     background-size: cover;
     height: 700px;
@@ -14,7 +14,7 @@ body {
 
 .hero-content {
     text-align: center;
-    color: yellow;
+    color: black;
     margin-top: 400px;
 
 }
@@ -22,7 +22,7 @@ body {
 .hero-content h1 {
     text-transform: uppercase;
     font-size: 56px;
-    text-shadow: 3px 3px 2px red;
+    text-shadow: 2px 4px 2px rgb(148, 153, 102);
     font-style: italic;
 
 }
